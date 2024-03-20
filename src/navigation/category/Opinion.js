@@ -14,53 +14,53 @@ export default function Berita() {
         name: 'Indonesia',
         subCategory: [
           { name: 'Jakarta', link: '/Indonesia/Jakarta' },
-          { name: 'Archipelago', link: '/ekonomi' },
-          { name: 'Politics', link: '/sosial' },
-          { name: 'Society', link: '/Business/Markets' },
+          { name: 'Archipelago', link: '/Indonesia/Archipelago' },
+          { name: 'Politics', link: '/Indonesia/Politics' },
+          { name: 'Society', link: '/Indonesia/Society' },
         ]
       },
       {
         name: 'World',
         subCategory: [
-          { name: 'Americas', link: '/Business/Companies' },
-          { name: 'Asia - Pacific', link: '/world-politics' },
-          { name: 'Europe', link: '/world-business' },
-          { name: 'Middle East Africa', link: '/Business/Markets' },
+          { name: 'Americas', link: '/World/Americas' },
+          { name: 'Asia - Pacific', link: '/World/AsiaPasific' },
+          { name: 'Europe', link: '/World/Europe' },
+          { name: 'Middle East Africa', link: '/World/MiddleEastAfrica' },
         ]
       },
       {
         name: 'Culture',
         subCategory: [
-          { name: 'Arts & Culture', link: '/music' },
-          { name: 'Books', link: '/art' },
-          { name: 'Entertainment', link: '/food' },
-          { name: 'Environment', link: '/Business/Markets' },
-          { name: 'Food', link: '/Business/Markets' },
-          { name: 'Health', link: '/Business/Markets' },
-          { name: 'Lifestyle', link: '/Business/Markets' },
-          { name: 'Parenting', link: '/Business/Markets' },
-          { name: 'People', link: '/Business/Markets' },
-          { name: 'Technology', link: '/Business/Markets' },
+          { name: 'Arts & Culture', link: '/Culture/ArtsCulture' },
+          { name: 'Books', link: '/Culture/Books' },
+          { name: 'Entertainment', link: '/Culture/Entertainment' },
+          { name: 'Environment', link: '/Culture/Environment' },
+          { name: 'Food', link: '/Culture/Food' },
+          { name: 'Health', link: '/Culture/Health' },
+          { name: 'Lifestyle', link: '/Culture/Lifestyle' },
+          { name: 'Parenting', link: '/Culture/Parenting' },
+          { name: 'People', link: '/Culture/People' },
+          { name: 'Technology', link: '/Culture/Technology' },
         ]
       },
       {
         name: 'Opinion',
         subCategory: [
-          { name: 'Academia', link: '/editorial' },
-          { name: 'Analysis', link: '/op-ed' },
-          { name: 'Commentary', link: '/letters' },
-          { name: 'Editorial', link: '/Business/Markets' },
-          { name: 'Insight', link: '/Business/Markets' },
-          { name: 'Interview', link: '/Business/Markets' },
-          { name: 'Podcast', link: '/Business/Markets' },
-          { name: 'The Brief', link: '/Business/Markets' },
+          { name: 'Academia', link: '/Opinion/Academia' },
+          { name: 'Analysis', link: '/Opinion/Analysis' },
+          { name: 'Commentary', link: '/Opinion/Commentary' },
+          { name: 'Editorial', link: '/Opinion/Editorial' },
+          { name: 'Insight', link: '/Opinion/Insight' },
+          { name: 'Interview', link: '/Opinion/Interview' },
+          { name: 'Podcast', link: '/Opinion/Podcast' },
+          { name: 'The Brief', link: '/Opinion/TheBrief' },
         ]
       },
       {
         name: 'DeepDive',
         subCategory: [
-          { name: 'Dispatch', link: '/investigations' },
-          { name: 'Quick', link: '/features' },
+          { name: 'Dispatch', link: '/DeepDive/Dispatch' },
+          { name: 'Quick', link: '/DeepDive/Quick' },
         ]
       },
       {

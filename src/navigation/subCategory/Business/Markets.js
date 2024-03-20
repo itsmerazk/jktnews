@@ -14,48 +14,63 @@ export default function Markets() {
         name: 'Indonesia',
         subCategory: [
           { name: 'Jakarta', link: '/Indonesia/Jakarta' },
-          { name: 'Ekonomi', link: '/ekonomi' },
-          { name: 'Sosial', link: '/sosial' }
+          { name: 'Archipelago', link: '/Indonesia/Archipelago' },
+          { name: 'Politics', link: '/Indonesia/Politics' },
+          { name: 'Society', link: '/Indonesia/Society' },
         ]
       },
       {
         name: 'World',
         subCategory: [
-          { name: 'News', link: '/world-news' },
-          { name: 'Politics', link: '/world-politics' },
-          { name: 'Business', link: '/world-business' }
+          { name: 'Americas', link: '/World/Americas' },
+          { name: 'Asia - Pacific', link: '/World/AsiaPasific' },
+          { name: 'Europe', link: '/World/Europe' },
+          { name: 'Middle East Africa', link: '/World/MiddleEastAfrica' },
         ]
       },
       {
         name: 'Culture',
         subCategory: [
-          { name: 'Music', link: '/music' },
-          { name: 'Art', link: '/art' },
-          { name: 'Food', link: '/food' }
+          { name: 'Arts & Culture', link: '/Culture/ArtsCulture' },
+          { name: 'Books', link: '/Culture/Books' },
+          { name: 'Entertainment', link: '/Culture/Entertainment' },
+          { name: 'Environment', link: '/Culture/Environment' },
+          { name: 'Food', link: '/Culture/Food' },
+          { name: 'Health', link: '/Culture/Health' },
+          { name: 'Lifestyle', link: '/Culture/Lifestyle' },
+          { name: 'Parenting', link: '/Culture/Parenting' },
+          { name: 'People', link: '/Culture/People' },
+          { name: 'Technology', link: '/Culture/Technology' },
         ]
       },
       {
         name: 'Opinion',
         subCategory: [
-          { name: 'Editorial', link: '/editorial' },
-          { name: 'Op-Ed', link: '/op-ed' },
-          { name: 'Letters', link: '/letters' }
+          { name: 'Academia', link: '/Opinion/Academia' },
+          { name: 'Analysis', link: '/Opinion/Analysis' },
+          { name: 'Commentary', link: '/Opinion/Commentary' },
+          { name: 'Editorial', link: '/Opinion/Editorial' },
+          { name: 'Insight', link: '/Opinion/Insight' },
+          { name: 'Interview', link: '/Opinion/Interview' },
+          { name: 'Podcast', link: '/Opinion/Podcast' },
+          { name: 'The Brief', link: '/Opinion/TheBrief' },
         ]
       },
       {
         name: 'DeepDive',
         subCategory: [
-          { name: 'Investigations', link: '/investigations' },
-          { name: 'Features', link: '/features' },
-          { name: 'Analysis', link: '/analysis' }
+          { name: 'Dispatch', link: '/DeepDive/Dispatch' },
+          { name: 'Quick', link: '/DeepDive/Quick' },
         ]
       },
       {
         name: 'Business',
         subCategory: [
-          { name: 'Market', link: '/market' },
-          { name: 'Finance', link: '/finance' },
-          { name: 'Technology', link: '/technology' }
+          { name: 'Business', link: '/Business/Companies' },
+          { name: 'Economy', link: '/Business/Economy' },
+          { name: 'Markets', link: '/Business/Markets' },
+          { name: 'Regulations', link: '/Business/Regulations' },
+          { name: 'Tech', link: '/Business/Tech' },
         ]
       }
     ]

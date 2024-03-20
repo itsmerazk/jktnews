@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import World from '../../screen/category/World';
+import Interview from '../../../screen/subCategory/Opinion/Interview';
 
 export default function Berita() {
   const [isLoading, setIsLoading] = useState(true);
@@ -75,7 +75,7 @@ export default function Berita() {
       }
     ]
   };
-  
+
   return (
     <div className={`opacity-${isContentVisible ? '100' : '0'} transition-opacity duration-500`}>
       {/* Navbar */}
@@ -117,7 +117,7 @@ export default function Berita() {
     </nav>
 
       {/* Content */}
-      <World/>
+      <Interview/>
 
       {/* Footer */}
       <footer className="py-4 mt-10 text-center text-white bg-gray-800">
