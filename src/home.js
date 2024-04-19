@@ -38,7 +38,7 @@ function App() {
           <div key={category.id} className="p-4 bg-white rounded-lg shadow-md">
             <h2 className="mb-2 text-lg font-semibold">{category.name}</h2>
             <p className="text-gray-600">{category.description}</p>
-            <Link to={`/category/${category.name}`} className="block mt-2 text-blue-500 hover:underline">See More</Link>
+            <Link to={`/${category.name}`} className="block mt-2 text-blue-500 hover:underline">See More</Link>
           </div>
         ))}
       </div>
